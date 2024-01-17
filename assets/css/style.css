@@ -116,6 +116,7 @@ main {
 
 #reasons {   
     margin: 20px auto;
+    width: 90%;
 }
 
 #reasons > h2 { 
@@ -124,8 +125,20 @@ main {
     text-align: center;
 }
 
-#benefits div {
-    margin: 20px auto;
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+#benefits p {
+    padding: 0px 20px
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 /* Footer */
 #social-networks {
