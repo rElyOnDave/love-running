@@ -27,6 +27,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -256,6 +260,12 @@ main {
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
